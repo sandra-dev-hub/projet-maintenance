@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: roboto;
+    src: url("./assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: none;
+}
+@theme{
+    --font-playwrite: 'roboto', sans-serif;
+}
