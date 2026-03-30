@@ -70,7 +70,6 @@
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --color-tsa-blue: #1e40af;
   }
 }
 @layer base {
@@ -445,9 +444,6 @@
   .bg-slate-900 {
     background-color: var(--color-slate-900);
   }
-  .bg-tsa-blue {
-    background-color: var(--color-tsa-blue);
-  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -817,8 +813,8 @@
   }
 }
 @font-face {
-  font-family: 'RobotoCustom';
-  src: url("./assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+  font-family: 'Roboto';
+  src: url("../assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
