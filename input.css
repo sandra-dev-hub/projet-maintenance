@@ -1,11 +1,25 @@
 @import "tailwindcss";
 
-@font-face {
-    font-family: roboto;
-    src: url("./assets/fonts/Roboto/") format("truetype");
+@font-face { /* me permet de crer les font ici et de l'utiliser dans mon html*/
+    font-family: 'RobotoCustom';
+    src: url("./assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf") format("truetype");
     font-weight: normal;
-    font-style: none;
+    font-style: normal;
 }
-@theme{
-    --font-playwrite: 'roboto', sans-serif;
+
+@theme {
+    --font-roboto: 'Roboto', sans-serif;
+    /* me permet d'ajouter une couleur personnalisée*/
+    --color-tsa-blue: #1e40af; 
+    --color-tsa-dark: #1e293b;
+}
+
+/* ici lorsque je clique sur un lien le glissement est fluide et non brusque */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased; /*me permet de rendre le texte plius fin et plus propre sur les ecrans*/
 }
