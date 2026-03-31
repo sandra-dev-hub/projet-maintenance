@@ -856,22 +856,10 @@
   }
 }
 @font-face {
-  font-family: roboto;
-  src: url("../assets/font/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf") format(truetype);
+  font-family: 'Roboto';
+  src: url("../assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-}
-@layer base {
-  .hover {
-    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
-    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
-    transition-duration: var(--tw-duration, var(--default-transition-duration));
-    &:hover {
-      @media (hover: hover) {
-        color: var(--color-blue-600);
-      }
-    }
-  }
 }
 html {
   scroll-behavior: smooth;
