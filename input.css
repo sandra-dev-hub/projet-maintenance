@@ -1,16 +1,18 @@
 @import "tailwindcss";
 
-@font-face { /* me permet de crer les font ici et de l'utiliser dans mon html*/
-    font-family: 'Roboto';
-    src: url("../assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+@font-face{
+    font-family: roboto;
+    src: url("../assets/font/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf") format(truetype);
     font-weight: normal;
     font-style: normal;
 }
+@layer base{
+    .hover{
+    @apply hover:text-blue-600 transition
+}
+}
 
-
-
-/* ici lorsque je clique sur un lien le glissement est fluide et non brusque */
-html {
+html{
     scroll-behavior: smooth;
 }
 
