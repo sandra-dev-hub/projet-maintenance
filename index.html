@@ -43,7 +43,7 @@
                     Nous accompagnons les entreprises dans la maintenance, la sécurisation et l'optimisation de leurs infrastructures numériques. 
                 </p>
                 <div class="flex flex-wrap items-center gap-4">
-                    <a href="#services" class=" inline-block w-fit px-5 py-2 bg-slate-900 text-white rounded-lg font-semibold text-sm hover:bg-slate-800 transition">
+                    <a href="#services" class=" inline-block w-fit px-5 py-2 bg-slate-900 text-white rounded-lg font-semibold text-sm hover:bg-slate-950 transition">
                         Voir nos solutions
                     </a>
                     <div class="flex items-center gap-2">
@@ -56,8 +56,8 @@
                 <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
                     <img src="./assets/images/photo1.jpg" alt="Support technique" class="w-full h-500px object-cover">
                 </div>
-                <div class="absolute -top-10 -right-10 w-64 h-64 bg-blue-400 rounded-full filter blur-3xl opacity-20"></div>
-                <div class="absolute -bottom-10 -left-10 w-64 h-64 bg-cyan-400 rounded-full filter blur-3xl opacity-20"></div>
+                <div class="absolute"></div>
+                <div class="absolute"></div>
             </div>
         </div>
     </header>
@@ -65,48 +65,123 @@
     <section id="services" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-2xl mx-auto mb-20">
-                <h2 class="text-4xl font-bold mb-4">Nos domaines d'expertise</h2>
+                <h2 class="font">Nos domaines d'expertise</h2>
                 <p class="text-slate-500">Des solutions sur mesure pour répondre aux défis technologiques de votre entreprise.</p>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:scale-105 transition-all duration-300">
-                    <div class="w-14 h-14 bg-blue-600 rounded-2xl flex items-center justify-center mb-6 text-white shadow-lg shadow-blue-200">
+                <div class="card-avis">
+                    <div class="w-14 h-14 bg-blue-600 rounded">
                         🖥️
                     </div>
                     <h3 class="text-2xl font-bold mb-4">gérance</h3>
-                    <p class="text-slate-600 mb-6">Gestion complète de votre parc : postes de travail, serveurs et mises à jour critiques.</p>
-                    <ul class="space-y-2 text-sm font-medium text-slate-500">
+                    <p class="slate">Gestion complète de votre parc : postes de travail, serveurs et mises à jour critiques.</p>
+                    <ul class="medium text-slate-500">
                         <li>• Support utilisateur</li>
                         <li>• Disponibilite 24h/7</li>
                     </ul>
                 </div>
 
-                <div class="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:scale-105 transition-all duration-300">
-                    <div class="w-14 h-14 bg-cyan-500 rounded-2xl flex items-center justify-center mb-6 text-white shadow-lg shadow-cyan-200">
+                <div class="card-avis">
+                    <div class="w-14 h-14 bg-cyan-500 rounded">
                         🌐
                     </div>
                     <h3 class="text-2xl font-bold mb-4">Réseaux & Sécurité</h3>
-                    <p class="text-slate-600 mb-6">installation et configuration de vos réseaux locaux (LAN) et WiFi sécurisés.</p>
-                    <ul class="space-y-2 text-sm font-medium text-slate-500">
+                    <p class="slate">installation et configuration de vos réseaux locaux (LAN) et WiFi sécurisés.</p>
+                    <ul class="medium text-slate-500">
                         <li>• Pare-feu & VPN</li>
                         <li>• Câblage structuré</li>
                     </ul>
                 </div>
 
-                <div class="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:scale-105 transition-all duration-300">
-                    <div class="w-14 h-14 bg-indigo-600 rounded-2xl flex items-center justify-center mb-6 text-white shadow-lg shadow-indigo-200">
+                <div class="card-avis">
+                    <div class="w-14 h-14 bg-indigo-600 rounded">
                         ☁️
                     </div>
                     <h3 class="text-2xl font-bold mb-4">Sauvegarde & Cloud</h3>
-                    <p class="text-slate-600 mb-6">Protection de vos données critiques avec des solutions de sauvegarde automatique.</p>
-                    <ul class="space-y-2 text-sm font-medium text-slate-500">
+                    <p class="slate">Protection de vos données critiques avec des solutions de sauvegarde automatique.</p>
+                    <ul class="medium text-slate-500">
                         <li>• Reparation avec effet immediat</li>
                         <li>• Migration Cloud</li>
                     </ul>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="a-propos" class="py-24 bg-blue-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-20">
+                <h1 class="text-4xl font-bold mb-4">Avis</h1>
+                <p class="slate">listes des avis des clients</p>
+
+            </div>
+            <div class="grid md:grid-cols-5 gap-8">
+            <div class="card-avis">
+    <div class="flex items-center gap-4 mb-4">
+        <img src="./assets/images/jojo.jpg" alt="Laure" 
+             class="card">
+        
+        <h3 class="font">joan</h3>
+    </div>
+
+    <p class="slate">
+        "Cette entreprise est une pépite."
+    </p>
+   </div>
+<div class="card-avis">
+    <div class="flex items-center gap-4 mb-4">
+        <img src="./assets/images/jojo.jpg" alt="Laure" 
+             class="card">
+        
+        <h3 class="font">Laure</h3>
+    </div>
+
+    <p class="slate">
+        "Cette entreprise est une pépite."
+    </p>
+</div>
+<div class="card-avis">
+    <div class="flex items-center gap-4 mb-4">
+        <img src="./assets/images/jojo.jpg" alt="Laure" 
+             class="card">
+        
+        <h3 class="font">Laure</h3>
+    </div>
+
+    <p class="slate">
+        "Cette entreprise est une pépite."
+    </p>
+</div>
+<div class="card-avis">
+    <div class="flex items-center gap-4 mb-4">
+        <img src="./assets/images/jojo.jpg" alt="Laure" 
+             class="card">
+        
+        <h3 class="font">Laure</h3>
+    </div>
+
+    <p class="slate">
+        "Cette entreprise est une pépite."
+    </p>
+</div>
+<div class="card-avis">
+    <div class="flex items-center gap-4 mb-4">
+        <img src="./assets/images/jojo.jpg" alt="Laure" 
+             class="card">
+        
+        <h3 class="font">Laure</h3>
+    </div>
+
+    <p class="slate">
+        "Cette entreprise est une pépite."
+    </p>
+</div>
+
+            </div>
+
+        </div>
+
     </section>
 
     <footer id="contact" class="bg-slate-900 text-white pt-24 pb-12">
