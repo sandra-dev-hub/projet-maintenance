@@ -30,27 +30,24 @@
     }
 
     .absolute{
-        @appy absolute -bottom-10 -left-10 w-64 h-64 bg-cyan-400 rounded-full filter blur-3xl opacity-20
+        @appy absolute -bottom-10 -left-10 w-64 h-64 bg-cyan-400 rounded-full filter blur-3xl opacity-20;
     }
 
     .rounded{
-        @appy rounded-2xl flex items-center justify-center mb-6 text-white shadow-lg shadow-blue-200
+        @appy rounded-2xl flex items-center justify-center mb-6 text-white shadow-lg shadow-blue-200;
     }
     .font{
-        @apply font-bold text-slate-800 text-lg
+        @apply font-bold text-slate-800 text-lg;
 
     }
     .slate{
-        @apply text-slate-600 text-sm italic leading-relaxed
+        @apply text-slate-600 text-sm italic leading-relaxed;
     }
     .medium{
-        @apply space-y-2 text-sm font-medium
+        @apply space-y-2 text-sm font-medium;
     }
     .card{
         @apply w-16 h-16 rounded-full object-cover object-top border-2 border-white shadow-sm flex-shrink-0
-    }
-    .min{
-        @apply min-w-[280px] bg-white p-8 rounded-3xl shadow-xl snap-center
     }
 }
 
