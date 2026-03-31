@@ -6,6 +6,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
 
 @theme{
     --color-brand-primary: #2563eb;
@@ -15,7 +24,7 @@
         .hover{
         @apply hover:text-brand-primary transition
     }
-    
+
     .card-avis{
         @apply p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:scale-105 transition-all duration-300;
     }
@@ -39,6 +48,9 @@
     }
     .card{
         @apply w-16 h-16 rounded-full object-cover object-top border-2 border-white shadow-sm flex-shrink-0
+    }
+    .min{
+        @apply min-w-[280px] bg-white p-8 rounded-3xl shadow-xl snap-center
     }
 }
 
